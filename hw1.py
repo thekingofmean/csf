@@ -12,7 +12,7 @@
 import math                     # makes the math.sqrt function available
 
 
-### I opted to add print lines to show the use what is going on behind the scenes.
+### I opted to add print lines to show the user what is going on behind the scenes.
 
 ###
 ### Problem 1
