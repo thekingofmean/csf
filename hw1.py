@@ -62,7 +62,8 @@ print "Problem 3 solution follows:"
 
 # This uses the variables defined in hw1_test and prints out the following expression as a string
 
-print "The results for the expression ((a^b)v(~c)^~(dvevf)) are in!"
+print "The expression we will evaluate is this: ((a^b)v(~c)^~(dvevf))"
+print "Here is the result:"
 print ((a and b) or (not c) and not (d or e or f))
 
 
