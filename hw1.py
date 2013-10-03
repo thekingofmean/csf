@@ -50,7 +50,7 @@ print "Problem 2 solution follows:"
 # Here we use "execfile("filename") to add an external file,
 # in this case setting a number of variables at once.
 
-execfile("hw1_test.py")
+import hw1_test
 ### I'd like to "CAT" out the contents of hw1_test.py here, but don't know how yet.
 print "hw1_test.py has been imported successfully."
 
@@ -64,7 +64,7 @@ print "Problem 3 solution follows:"
 
 print "The expression we will evaluate is this: ((a^b)v(~c)^~(dvevf))"
 print "Here is the result:"
-print ((a and b) or (not c) and not (d or e or f))
+print ((hw1_test.a and hw1_test.b) or (not hw1_test.c) and not (hw1_test.d or hw1_test.e or hw1_test.f))
 
 
 
