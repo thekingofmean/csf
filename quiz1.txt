@@ -1,0 +1,9 @@
+# Grader Name: Cameron Casey
+# Evergreen Login: cascam07
+
+import lab2
+x = 0
+while (x<lab2.n)
+    print "Hello world"
+        x = x+1
+done 
