@@ -17,12 +17,12 @@
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 1 solution follows:"
 
-import hw_test2
+import hw2_test
 
-x = "hw_test2.n"
-for i in range(hw_test2.n):
-    x = x + i
-print x
+a = 0
+for i in range(hw2_test.n):
+    a = a + i
+print a + hw2_test.n
 
 
 ###
@@ -32,7 +32,10 @@ print x
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+for b in range(2,10):
+    print 1.0/b
+    
+
 
 
 ###
@@ -42,7 +45,12 @@ print "Problem 2 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 10
+triangular = 0
+for i in ...:
+    triangular = ...
+print "Triangular number", n, "via loop:", triangular
+print "Triangular number", n, "via formula:", n*(n+1)/2
 
 ###
 ### Problem 4
@@ -51,7 +59,9 @@ print "Problem 3 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+#Use a for loop to compute 10!, the factorial of 10. Recall that the factorial of n is 1*2*3*...*n.
+#The first line of your solution will be n = 10. After that, your solution should not use 10 again, though your solution will use n. In other words, your code (after the n = 10 line) should work for any value of n.
+#Hint: Your answer will be similar to your answer to "Problem 3: Triangular numbers".
 
 ###
 ### Problem 5
@@ -60,7 +70,11 @@ print "Problem 4 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+#Write code to print the first 10 factorials, in reverse order. In other words, write code that prints 10!, then prints 9!, then prints 8!, ..., then prints 1!. 
+#The first line of your solution should assign a variable numlines to 10, and then the rest of your solution must not use 10 anywhere.
+#Use two nested for loops.
+#The outer loop sets the value of n to the values numlines, numlines-1, numlines-2, ..., 1, in succession.
+#Then, the body of that loop is itself a loop — exactly your solution to Problem 4 without the first line n = 10 that hard-codes the value of n.
 
 ###
 ### Problem 6
@@ -69,14 +83,19 @@ print "Problem 5 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+#Compute the following value:
+#1 + 1/1! + 1/2! + 1/3! + 1/4! + ... + 1/10!
+#The value should be close to e (≈ 2.71828), the base of the natural logarithms.
+#Hint: The easiest way to solve this is with two nested for loops. It is possible, but tricky, to compute this using only one for loop. That is not necessary for this assignment.
+#Hint: Copy your solution to "Problem 5: Multiple factorials", then modify it. Rather than printing the factorials, you will add their reciprocals to a running total, then print that total at the end.
+#Hint: don't try to work the very first "1 +" into your loop; do it outside the loops (either at the very beginning or the very end of the outer loop).
 
 ###
 ### Collaboration
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# https://wiki.python.org/moin/
+# http://docs.python.org/2.7/
 
 ###
 ### Reflection
